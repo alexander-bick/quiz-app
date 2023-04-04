@@ -37,7 +37,9 @@ body {
 }
 
 .card__answerbutton {
-    width: 20%;
+    width: 30%;
+    margin: auto;
+    
 }
 
 .footer {
