@@ -9,14 +9,14 @@
     </head>
 <body>
     <header class="header">
-        <h1 class="header__heading">Quiz App</h1>
+        <h1 class="header__heading" aria-labelledby="title">Quiz App</h1>
     </header>
     <main>
-        <section class="profile">
+        <section class="profile" aria-labelledby="profile">
             <img class="profile__pic" alt="profile pic" src="images/userempty.png"/>
             <p class="profile__name">Max Doe</p>
         </section>
-        <section class="aboutme">
+        <section class="aboutme" aria-labelledby="aboutme">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
         </section>
         <section class="counter">
@@ -27,18 +27,18 @@
                 <img alt="bookmarkfilled" src="images/bookmarkfilled.png" class="counter__icon"/>
             </div>
         </section>
-        <section class="settings">
+        <section class="settings" aria-labelledby="settings">
             <h2>Settings</h2>
-            <div class="darkmode"
-            <p>Dark Mode</p>
-                <label class="switch">
+            <div class="darkmode">
+                <p>Dark Mode</p>
+                <label class="switch" aria-label="switchdarkmodeonoff">
                     <input type="checkbox">
                     <span class="slider round"></span>
                 </label>
             </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" aria-labelledby="navbar">
         <a href="index.html"><img alt="home" src="images/homeempty.png" class="footer__icon"/></a>
         <a href="bookmarks.html"><img alt="bookmarks" src="images/bookmarkempty.png" class="footer__icon"/></a></a>
         <a href="profile.html"><img alt="profile" src="images/userfilled.png" class="footer__icon"/></a></a>
