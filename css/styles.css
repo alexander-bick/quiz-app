@@ -120,6 +120,15 @@ body {
     flex-direction: row;
 }
 
+.textarea {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.submitbutton {
+  margin-top: 20px;
+}
+
 /* The switch - the box around the slider */
 .switch {
     position: relative;
